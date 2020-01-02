@@ -1,0 +1,41 @@
+###---------------------------------
+### General
+.DS_Store
+.idea/*
+frontend/.idea/*
+backend/.idea/*
+
+###---------------------------------
+### Backend
+
+# Gradle
+backend/.gradle
+backend/build/
+backend/lib/
+
+backend/HELP.md
+!backend/gradle/wrapper/gradle-wrapper.jar
+!backend/src/main/**
+!backend/src/test/**
+
+###---------------------------------
+### Frontend
+
+frontend/.DS_Store
+frontend/.idea/
+frontend/cypress/fixtures
+frontend/cypress/plugins
+frontend/cypress/screenshots/*
+frontend/cypress/support
+frontend/cypress/videos/*
+frontend/npm-debug.log*
+
+# elm generated files
+frontend/elm-stuff
+frontend/repl-temp-*
+
+# Node & Parcel outputs
+frontend/node_modules
+frontend/integration/node_modules/
+frontend/.cache
+frontend/dist
